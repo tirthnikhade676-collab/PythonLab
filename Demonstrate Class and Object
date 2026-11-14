@@ -1,0 +1,15 @@
+class Student:
+    def get_details(self):
+        self.name = input("Enter student name: ")
+        self.age = int(input("Enter student age: "))
+
+    def display(self):
+        print("Student Name:", self.name)
+        print("Student Age:", self.age)
+
+
+# Creating an object
+s1 = Student()
+
+s1.get_details()
+s1.display()
